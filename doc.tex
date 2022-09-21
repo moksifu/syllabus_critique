@@ -117,11 +117,8 @@ The content outcomes of the Syllabus can be structured into the following outlin
     \begin{itemize}
       \item Computer Programmers must think with conditional statements, e.g.
         \begin{verbatim}
-if x > 0:
-  print(x)
-else:
-  print(2*x)
-        \end{verbatim}
+if x > 2 or (x < 0 and x % 3 == 0):
+  print(x)\end{verbatim}
         Understanding logic is an important skill they require daily so to be taught how to do so in our courses would greatly benefit them.
       \item All other Mathematical content a student learns henceforth has a coherent and consistent framework/language from which it is built. The implication of this is that the NSW Syllabus can afford to take out some concepts to make it less bloated - leave these omissions or a student's further study in their own extra-curricular research or university course.
       \item Just like how learning to read English is the key that opens a world of books to the reader, the student who learns to read and think in Sets and Logic can pick up any Mathematics book not necessarily catered for the NSW curriculum and know how to decipher its contents to learn. This opens up a lot more learning opportunities and resources for the student (and teacher alike) to practice!
@@ -167,7 +164,7 @@ else:
 
     The proper term for vectors that have direction and length in $\mathbb{R}^2$ and $\mathbb{R}^3$ (Euclidean) vector spaces is the `Euclidean Vector'. In here, one may define the concepts of dot product and vector norm (length).
 
-  \item A set theoretic understanding of vector spaces in high school would improve the teaching and learning experience of students when they take a first year Linear Algebra course in University as they study transformations as linear functions from a vector space $V$ into another vector space $W$, i.e. $T: V \rightarrow W$. The composition of such functions can be represented by matrix algebra. To this note, I do not recommend introducing the concept of Matrices to high school students for the purpose of solving linear equations.
+  \item A set theoretic understanding of vector spaces in high school would improve the teaching and learning experience of students when they take a first year Linear Algebra course in University as they study transformations as linear functions from a vector space $V$ into another vector space $W$, i.e. $T: V \rightarrow W$. The composition of such functions can be represented by matrix algebra. To this note, I do not recommend introducing the concept of Matrices to high school students for the purpose of solving linear equations - this is a rather outdated application of the theory and will make processes such as Determinant calculations very difficult to motivate.
 
   \item The concept of a Random Variable in the Syllabus and glossary pages is quite vaguewithout precise set theoretic language - ``a random variable is a variable...'' is not a great start to a sentence. Again we see that a set theoretic framework makes it very easy to define a (real) Random Variable - it is a function $X: \Omega \rightarrow \mathbb{R}$ where $\Omega$ is the sample space of the probability experiment. $X$ is called a discrete random variable if and only if its range is \emph{countable} and $X$ is called a continuous random variable if and only if its range is \emph{uncountably infinite}. These concepts of countable and uncountably infinite can be unpacked here or in the definition of functions.
 
@@ -188,5 +185,10 @@ else:
 \end{itemize}
 
 \section{Concluding Remarks}
+The intention of the current syllabus actually means well in teaching students how to compute derivatives and integrals, draw and manipulate vectors to study geometric shapes, model physical scenarios with differential equations, calculate probabilities of experimental results with random variables, etc - these are all good things!
+
+However, an emphasis on these results and applications means that the foundational aspect of how and why the Mathematics works is often neglected as evidenced by the hiding away of the discussion of limits in differential calculus, the hiding away of Sets and proper function notation, as well as an aversion of first order logic language in the pedagogy of Mathematics. While the community of STEM consists of those who \emph{use} Mathematics regularly, such as physicists, chemists, biologists, engineers, computer programmers, etc - the actual \emph{science of Mathematics} should not be neglected in preference of the results.
+
+The fact that students currently need to unlearn concepts taught in the HSC upon reaching university should be enough to raise questions about the adequacy of our HSC Mathematics courses - it is because the foundational mathematical framework is currently, as it stands, not grounded in anything substantial. With a proper mathematical framework, the unlearning of material in university will not be necessary. With this in mind, I propose that we update the Syllabus to bring the truth to light: it's about Sets and Logic.
 
 \end{document}
